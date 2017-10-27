@@ -1,8 +1,8 @@
-import { assign, merge } from '@ember/polyfills';
+import { emberAssign, merge } from '@ember/polyfills';
 import { get, computed } from '@ember/object';
 import { typeOf } from '@ember/utils';
 const { keys } = Object;
-const assign = assign || merge;
+const assign = emberAssign || merge;
 
 export default function objectToArray(objKey, flattenObjects) {
   return computed(objKey, function() {
