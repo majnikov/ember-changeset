@@ -21,7 +21,8 @@
   "bugs": "https://github.com/DockYard/ember-changeset/issues",
   "homepage": "https://github.com/DockYard/ember-changeset",
   "dependencies": {
-    "ember-cli-babel": "^5.1.7"
+    "ember-cli-babel": "^6.8.0",
+    "ember-source": "2.16.0"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -45,9 +46,6 @@
     "ember-native-dom-helpers": "^0.4.1",
     "ember-resolver": "^2.0.3",
     "loader.js": "^4.2.3"
-  },
-  "dependecies": {
-    "ember-source": "2.16.0"
   },
   "engines": {
     "node": ">= 4"
