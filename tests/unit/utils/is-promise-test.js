@@ -1,9 +1,9 @@
+import { resolve, Promise } from 'rsvp';
 import Ember from 'ember';
 import isPromise from 'ember-changeset/utils/is-promise';
 import { module, test } from 'qunit';
 
 const {
-  RSVP: { Promise, resolve },
   K
 } = Ember;
 
